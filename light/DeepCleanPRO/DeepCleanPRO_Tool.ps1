@@ -1,4 +1,4 @@
-if($PSCommandPath){Write-Host "Unknown error [103386]. Please visit the official homepage to run it online." -f Red; Start-Process "https://github.com/Cotton059/Light-Help"; exit}
+if($PSCommandPath){Write-Host "Unknown error [103386]. Please visit the official homepage to run it online." -f Red; Start-Process "https://github.com/alzmjee/Light-Help"; exit}
 
 $ErrorActionPreference = "Stop"
 
