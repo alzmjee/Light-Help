@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 
 if($PSCommandPath){exit}
 
-$DownloadURL = 'https://raw.githubusercontent.com/Cotton059/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO.ps1'
+$DownloadURL = 'https://raw.githubusercontent.com/alzmjee/Light-Help/main/light/DeepCleanPRO/DeepCleanPRO.ps1'
 
 $rand = Get-Random -Maximum 99999999
 
@@ -38,6 +38,6 @@ finally {
     Write-Host "`n[*] Done! Press 'Y' for YT: Lightspeed Sharing, or any other key to exit..." -ForegroundColor Magenta -NoNewline
     $key = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown").Character
     if ($key -match 'y|Y') {
-        Start-Process "https://www.youtube.com/channel/UCz1AlF-BnyirJqrmN78mk5Q"
+        Start-Process "https://github.com/alzmjee/Light-Help"
     }
 }
