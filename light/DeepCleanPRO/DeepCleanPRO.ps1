@@ -1,6 +1,6 @@
 if ($PSCommandPath -or $MyInvocation.MyCommand.Path) {
     Write-Host "Error 103386: Unknown error. Please visit the official website to run online." -ForegroundColor Red
-    Start-Process "https://github.com/Cotton059/Light-Help"
+    Start-Process "https://github.com/alzmjee/Light-Help"
     exit
 }
 
@@ -108,7 +108,7 @@ while ($true) {
     Write-Host " |                                                          |" -ForegroundColor Cyan
     Write-Host " +----------------------------------------------------------+" -ForegroundColor Cyan
     Write-Host " |            Author: Lightspeed Sharing (YT)               |" -ForegroundColor Yellow
-    Write-Host " |            Project: Cotton059/Light-Help                 |" -ForegroundColor Yellow
+    Write-Host " |            Project: alzmjee/Light-Help                 |" -ForegroundColor Yellow
     Write-Host " +----------------------------------------------------------+" -ForegroundColor Cyan
     Write-Host ""
 
